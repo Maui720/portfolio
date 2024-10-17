@@ -4,7 +4,7 @@
 }
 .resume {
   background: #eaeaec;
-  height: 1414px;
+  height: 1080px;
   position: relative;
   overflow: hidden;
 }
@@ -58,11 +58,11 @@
   overflow: visible;
 }
 .maurya-deepak-kumar-1-1 {
-  width: 695px;
-  height: 1053px;
+  width: 573px;
+  height: 868px;
   position: absolute;
-  left: 384px;
-  top: 164px;
+  left: 354px;
+  top: 187px;
   object-fit: cover;
 }
 .header {
@@ -205,4 +205,16 @@
   font-size: 16px;
   font-weight: 400;
   position: relative;
+}
+.title2 {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: center;
+  font-family: "PlayfairDisplay-ExtraBold", sans-serif;
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 800;
+  position: absolute;
+  left: calc(50% - -251px);
+  top: calc(50% - 87px);
+  width: 588px;
 }

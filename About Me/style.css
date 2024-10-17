@@ -4,7 +4,7 @@
 }
 .about-simple-footer {
   background: rgba(240, 242, 245, 0.39);
-  height: 944px;
+  height: 1080px;
   position: relative;
   overflow: hidden;
 }
@@ -16,7 +16,7 @@
   justify-content: flex-start;
   width: 588px;
   position: absolute;
-  left: 820px;
+  left: 1100px;
   top: 199px;
 }
 .title {
@@ -141,7 +141,7 @@
   justify-content: center;
   position: absolute;
   left: calc(50% - 103.5px);
-  top: 762px;
+  top: 883px;
 }
 .icons {
   display: flex;
@@ -211,7 +211,7 @@
   width: 524px;
   height: 524px;
   position: absolute;
-  right: 808px;
+  right: 1048px;
   top: 167px;
 }
 .pexels-artem-beliaikin-1832323-removebg-preview {
@@ -219,15 +219,15 @@
   width: 524px;
   height: 524px;
   position: absolute;
-  right: 808px;
+  right: 1048px;
   top: 167px;
   object-fit: cover;
 }
 .vector-2 {
-  width: 1444px;
+  width: 2020px;
   height: 0px;
   position: absolute;
-  left: -1.5px;
-  top: 891px;
+  left: -1px;
+  top: 1014px;
   overflow: visible;
 }
