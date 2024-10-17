@@ -4,7 +4,7 @@
 }
 .portfolio-simple-footer {
   background: #eaeaec;
-  height: 1031px;
+  height: 1080px;
   position: relative;
   overflow: hidden;
 }
@@ -16,7 +16,7 @@
   justify-content: center;
   position: absolute;
   left: calc(50% - 103.5px);
-  top: 853px;
+  top: 903px;
 }
 .icons {
   display: flex;
@@ -176,7 +176,7 @@
   position: relative;
 }
 .email-mauryadk-04-gmail-com-phone-91-6362038540 {
-  color: #00e5ff;
+  color: #000000;
   text-align: left;
   font-family: "Nunito-Bold", sans-serif;
   font-size: 20px;
@@ -186,20 +186,33 @@
   align-self: stretch;
   height: 79px;
 }
-.rectangle-11 {
-  border-radius: 0px;
-  width: 71px;
-  height: 2px;
+.intro2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 486px;
   position: absolute;
-  left: 1249px;
-  top: 41px;
-  overflow: visible;
+  left: 1270px;
+  top: 256px;
+  overflow: hidden;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 272px;
+  position: relative;
 }
 .vector-2 {
-  width: 1444px;
+  width: 1922px;
   height: 0px;
   position: absolute;
-  left: -1.5px;
-  top: 976px;
+  left: -1px;
+  top: 1026px;
   overflow: visible;
 }
