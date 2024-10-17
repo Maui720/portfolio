@@ -3,25 +3,206 @@
   box-sizing: border-box;
 }
 .resume {
-  background: #ffffff;
-  height: 1290px;
+  background: #eaeaec;
+  height: 1414px;
   position: relative;
   overflow: hidden;
 }
-.resume2 {
-  background: #ffffff;
-  width: 899px;
-  height: 1269px;
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 86px;
   position: absolute;
-  left: calc(50% - 449px);
-  top: calc(50% - 634px);
+  left: 111px;
+  top: 78px;
+}
+.title {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: var(--title-h1-font-family, "PlayfairDisplay-Bold", sans-serif);
+  font-size: var(--title-h1-font-size, 64px);
+  line-height: var(--title-h1-line-height, 120%);
+  font-weight: var(--title-h1-font-weight, 700);
+  position: relative;
+  width: 486px;
+}
+.subheadline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 486px;
+  height: 108px;
+  position: relative;
+}
+.vector-1 {
+  width: 0px;
+  height: 2349px;
+  position: absolute;
+  left: 69px;
+  top: 0px;
+  transform: translate(-1.5px, 0px);
+  overflow: visible;
+}
+.vector-2 {
+  width: 1444px;
+  height: 0px;
+  position: absolute;
+  left: -1.5px;
+  top: 1361px;
+  overflow: visible;
+}
+.maurya-deepak-kumar-1-1 {
+  width: 695px;
+  height: 1053px;
+  position: absolute;
+  left: 384px;
+  top: 164px;
+  object-fit: cover;
+}
+.header {
+  padding: 12px 120px 12px 120px;
+  height: 56px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+.maurya-deepak-kumar {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: "Comfortaa-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 180%;
+  font-weight: 700;
+  position: absolute;
+  left: 120px;
+  top: 12px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 120px;
+  top: 14px;
+}
+.tab-active {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.sobre {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: var(--body-18px-font-family, "Raleway-Medium", sans-serif);
+  font-size: var(--body-18px-font-size, 18px);
+  line-height: var(--body-18px-line-height, 28px);
+  font-weight: var(--body-18px-font-weight, 500);
+  position: relative;
+}
+.rectangle-11 {
+  background: var(--bg-line, #25282b);
+  border-radius: 2px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 2px;
+  position: relative;
+}
+.tab-default {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.vector-12 {
+  width: 0px;
+  height: 2349px;
+  position: absolute;
+  left: 69px;
+  top: 0px;
+  transform: translate(-1.5px, 0px);
+  overflow: visible;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: calc(50% - 103.5px);
+  top: 1252px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ph-instagram-logo-fill {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+}
+.bi-linkedin {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
   overflow: hidden;
 }
-.image-1 {
-  width: 899px;
-  height: 1302px;
+.group {
+  width: 79.17%;
+  height: 79.17%;
   position: absolute;
-  left: 0px;
-  top: -33px;
-  object-fit: cover;
+  right: 10.42%;
+  left: 10.42%;
+  bottom: 10.42%;
+  top: 10.42%;
+  overflow: visible;
+}
+.bi-envelope-fill {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.group2 {
+  width: 87.5%;
+  height: 66.67%;
+  position: absolute;
+  right: 6.25%;
+  left: 6.25%;
+  bottom: 16.67%;
+  top: 16.67%;
+  overflow: visible;
+}
+.maurya-deepak-kumar-2024 {
+  color: var(--font-medium-emphasis, #828282);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
 }

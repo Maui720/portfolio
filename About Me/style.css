@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .about-simple-footer {
-  background: var(--bg-gray, #f9faff);
+  background: rgba(240, 242, 245, 0.39);
   height: 944px;
   position: relative;
   overflow: hidden;
@@ -124,6 +124,15 @@
   flex-shrink: 0;
   position: relative;
 }
+.vector-1 {
+  width: 0px;
+  height: 2349px;
+  position: absolute;
+  left: 69px;
+  top: 0px;
+  transform: translate(-1.5px, 0px);
+  overflow: visible;
+}
 .footer-icons {
   display: flex;
   flex-direction: column;
@@ -202,15 +211,23 @@
   width: 524px;
   height: 524px;
   position: absolute;
-  left: 49px;
-  top: calc(50% - 305px);
+  right: 808px;
+  top: 167px;
 }
 .pexels-artem-beliaikin-1832323-removebg-preview {
   border-radius: 600px;
   width: 524px;
   height: 524px;
   position: absolute;
-  left: 49px;
-  top: calc(50% - 305px);
+  right: 808px;
+  top: 167px;
   object-fit: cover;
+}
+.vector-2 {
+  width: 1444px;
+  height: 0px;
+  position: absolute;
+  left: -1.5px;
+  top: 891px;
+  overflow: visible;
 }

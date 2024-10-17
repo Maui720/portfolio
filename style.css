@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .portfolio-simple-footer {
-  background: var(--bg-gray, #f9faff);
+  background: #eaeaec;
   height: 2346px;
   position: relative;
   overflow: hidden;
@@ -39,7 +39,7 @@
   justify-content: center;
   position: absolute;
   left: calc(50% - 103.5px);
-  top: 2189px;
+  top: 2159px;
 }
 .icons {
   display: flex;
@@ -146,6 +146,15 @@
   font-weight: var(--body-18px-font-weight, 500);
   position: relative;
 }
+.vector-1 {
+  width: 0px;
+  height: 2349px;
+  position: absolute;
+  left: 69px;
+  top: 0px;
+  transform: translate(-1.5px, 0px);
+  overflow: visible;
+}
 .projects {
   display: flex;
   flex-direction: column;
@@ -237,30 +246,6 @@
   position: relative;
   align-self: stretch;
 }
-.bot-o-secud-rio {
-  border-radius: 24px;
-  border-style: solid;
-  border-color: var(--font-high-emphasis, #25282b);
-  border-width: 1px;
-  padding: 8px 24px 8px 24px;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.text4 {
-  color: var(--font-high-emphasis, #25282b);
-  text-align: left;
-  font-family: "Roboto-Medium", sans-serif;
-  font-size: 18px;
-  line-height: 150%;
-  font-weight: 500;
-  text-decoration: underline;
-  position: relative;
-}
 .pexels-elly-fairytale-3823207-1 {
   flex-shrink: 0;
   width: 496px;
@@ -288,20 +273,6 @@
   position: relative;
   object-fit: cover;
 }
-.frame-33502 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 81.99%;
-  height: 55.73%;
-  position: absolute;
-  right: 7.84%;
-  left: 10.17%;
-  bottom: 22.04%;
-  top: 22.23%;
-}
 .intro {
   display: flex;
   flex-direction: column;
@@ -315,7 +286,7 @@
   overflow: hidden;
 }
 .ui-ux-designer {
-  color: #00e5ff;
+  color: #000000;
   text-align: left;
   font-family: "Nunito-Bold", sans-serif;
   font-size: 20px;
@@ -352,7 +323,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.text5 {
+.text4 {
   color: var(--font-medium-emphasis, #828282);
   text-align: left;
   font-family: "Nunito-Regular", sans-serif;
@@ -383,7 +354,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.text6 {
+.text5 {
   color: var(--font-high-emphasis, #25282b);
   text-align: left;
   font-family: "Roboto-Medium", sans-serif;
@@ -405,4 +376,53 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+}
+.rectangle-11 {
+  background: var(--bg-line, #25282b);
+  border-radius: 2px;
+  width: 215px;
+  height: 2px;
+  position: absolute;
+  left: 122px;
+  top: 42px;
+}
+.bot-o-secud-rio {
+  border-radius: 24px;
+  border-style: solid;
+  border-color: var(--font-high-emphasis, #25282b);
+  border-width: 1px;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 272.44px;
+  top: 1292px;
+}
+.text6 {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+  text-decoration: underline;
+  position: relative;
+}
+.bot-o-secud-rio2 {
+  border-radius: 24px;
+  border-style: solid;
+  border-color: var(--font-high-emphasis, #25282b);
+  border-width: 1px;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 772.44px;
+  top: 1882px;
 }

@@ -1,0 +1,205 @@
+.portfolio-simple-footer,
+.portfolio-simple-footer * {
+  box-sizing: border-box;
+}
+.portfolio-simple-footer {
+  background: #eaeaec;
+  height: 1031px;
+  position: relative;
+  overflow: hidden;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: calc(50% - 103.5px);
+  top: 853px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ph-instagram-logo-fill {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+}
+.bi-linkedin {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  width: 79.17%;
+  height: 79.17%;
+  position: absolute;
+  right: 10.42%;
+  left: 10.42%;
+  bottom: 10.42%;
+  top: 10.42%;
+  overflow: visible;
+}
+.bi-envelope-fill {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.group2 {
+  width: 87.5%;
+  height: 66.67%;
+  position: absolute;
+  right: 6.25%;
+  left: 6.25%;
+  bottom: 16.67%;
+  top: 16.67%;
+  overflow: visible;
+}
+.maurya-deepak-kumar-2024 {
+  color: var(--font-medium-emphasis, #828282);
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.header {
+  padding: 12px 120px 12px 120px;
+  height: 56px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+.maurya-deepak-kumar {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: "Comfortaa-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 180%;
+  font-weight: 700;
+  position: absolute;
+  left: 120px;
+  top: 12px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 120px;
+  top: 14px;
+}
+.tab-default {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.sobre {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: var(--body-18px-font-family, "Raleway-Medium", sans-serif);
+  font-size: var(--body-18px-font-size, 18px);
+  line-height: var(--body-18px-line-height, 28px);
+  font-weight: var(--body-18px-font-weight, 500);
+  position: relative;
+}
+.vector-1 {
+  width: 0px;
+  height: 2349px;
+  position: absolute;
+  left: 69px;
+  top: 0px;
+  transform: translate(-1.5px, 0px);
+  overflow: visible;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 486px;
+  position: absolute;
+  left: 120px;
+  top: 256px;
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 86px;
+  position: relative;
+}
+.title {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font-family: var(--title-h1-font-family, "PlayfairDisplay-Bold", sans-serif);
+  font-size: var(--title-h1-font-size, 64px);
+  line-height: var(--title-h1-line-height, 120%);
+  font-weight: var(--title-h1-font-weight, 700);
+  position: relative;
+  width: 486px;
+}
+.subheadline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 486px;
+  height: 108px;
+  position: relative;
+}
+.email-mauryadk-04-gmail-com-phone-91-6362038540 {
+  color: #00e5ff;
+  text-align: left;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  align-self: stretch;
+  height: 79px;
+}
+.rectangle-11 {
+  border-radius: 0px;
+  width: 71px;
+  height: 2px;
+  position: absolute;
+  left: 1249px;
+  top: 41px;
+  overflow: visible;
+}
+.vector-2 {
+  width: 1444px;
+  height: 0px;
+  position: absolute;
+  left: -1.5px;
+  top: 976px;
+  overflow: visible;
+}
