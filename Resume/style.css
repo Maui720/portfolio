@@ -1,0 +1,27 @@
+.resume,
+.resume * {
+  box-sizing: border-box;
+}
+.resume {
+  background: #ffffff;
+  height: 1290px;
+  position: relative;
+  overflow: hidden;
+}
+.resume2 {
+  background: #ffffff;
+  width: 899px;
+  height: 1269px;
+  position: absolute;
+  left: calc(50% - 449px);
+  top: calc(50% - 634px);
+  overflow: hidden;
+}
+.image-1 {
+  width: 899px;
+  height: 1302px;
+  position: absolute;
+  left: 0px;
+  top: -33px;
+  object-fit: cover;
+}
